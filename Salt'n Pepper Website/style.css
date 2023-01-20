@@ -1,0 +1,552 @@
+.container-fluid{
+    background-color: #222222;
+    border-bottom: 2px solid red;
+    margin-bottom: -8px;
+    margin-top: -8px;
+}
+.feedback{
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px !important;
+    margin-top: 25px;
+}
+.feedback:hover{
+    color: red !important;
+}
+.about{
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px !important;
+    margin-top: 25px;
+}
+.about:hover{
+    color: red !important;
+}
+.home{
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 70px !important;
+    margin-top: 25px;
+}
+.home:hover{
+    color: red !important;
+}
+.franchise{
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px !important;
+    margin-top: 25px;
+}
+.franchise:hover{
+    color: red !important;
+}
+.publications{
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px !important;
+    margin-top: 25px;
+}
+.publications:hover{
+    color: red !important;
+}
+.saltnpepperlogo{
+    width: 125px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px 3px;
+    font-size: small;
+    margin-left: 380px;
+    margin-top: 10px;
+}
+@media screen and (max-width:768px){
+    .btn1{
+          margin-bottom: 20px;
+          margin-left: 105px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+    }
+    .navbar-toggler{
+        margin-left: -10px;
+    }
+    .saltnpepperlogo{
+        margin-left: 20px
+    }
+    .ads{
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    .heading1{
+        font-size: 60px
+    }
+}
+.ads{
+    background-color: #222222;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid red;
+}
+.middleheader{
+    background-image: url(Images/spicesbgp.jpg);
+    background-size: cover;
+}
+.heading1{
+    font-family: Courier, monospace;
+    color: white !important;
+    font-weight: lighter;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+.heading2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+.paragraph1{
+    color: white;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: -10px;
+}
+.heading3{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 60px;
+}
+.paragraph2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+.lowerheader{
+    /* text-align: center; */
+    border-bottom: 2px solid red;
+    padding-bottom: 50px;
+}
+.restaurant{
+    width: 300px; 
+    background-color: white;
+    margin-left: 150px;
+    padding: 25px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.express{
+    width: 300px;
+    background-color: white;
+    margin-left: 150px;
+    padding-top: 25px;
+    padding-bottom: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.village{
+    width: 300px;
+    background-color: white;
+    margin-left: 150px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+@media screen and (min-width:700px){
+    .lowerheader{
+        text-align: center;
+    }
+}
+.lowerheader2{
+    background-color: #222222;
+    text-align: center;
+}
+.logo{
+    width: 24%;
+    margin-top: 35px;
+}
+.heading4{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 285%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.heading5{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 190%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.paragraph3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    margin-top: 20px;
+}
+.lowerheader3{
+    background-image: url(Images/saltnpepperislamabad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 5px 5px;
+    width: 20%;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.heading6{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.paragraph4{
+    color: white;
+}
+.lowerheader4{
+    background-image: url(Images/saltnpepperfaislabad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 5px 5px;
+    width: 20%;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.heading7{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.paragraph5{
+    color: white;
+}
+.lowerheader5{
+    background-image: url(Images/saltnpepperbahawalpur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 5px 5px;
+    width: 20%;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.heading8{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.paragraph6{
+    color: white;
+}
+@media (max-width: 767px){
+    .col-sm-12{
+        width: 80% !important;
+        margin-top: 10px !important;
+    }
+    .col-12{
+        width: 80% !important;
+        margin-top: 10px !important;
+    }
+}
+.lowerheader2{
+    padding-bottom: 30px;
+    border-bottom: 2px solid white;
+}
+.lowerheader6{
+    background-color: #222222;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 2px solid red;
+}
+.heading9{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 80px;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.lowerheader7{
+    background-image: url(Images/behramotorway.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 5px 5px;
+    width: 20%;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.heading10{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.paragraph7{
+    color: white;
+}
+.lowerheader8{
+    background-image: url(Images/packagesmall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 5px 5px;
+    width: 20%;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.heading11{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.paragraph8{
+    color: white;
+}
+.lowerheader9{
+    background-image: url(Images/emporiummall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 5px 5px;
+    width: 20%;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.heading12{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.paragraph9{
+    color: white;
+}
+.heading13{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 80px;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.lowerheader10{
+    background-image: url(Images/villagegujranwala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 5px 5px;
+    width: 20%;
+    margin-left: 60px;
+    margin-right: 0px;
+    padding-bottom: 28PX;
+}
+.heading14{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.paragraph10{
+    color: white;
+}
+@media (min-width: 767px){
+    .lowerheader10{
+        width: 87% !important;
+    }
+    .col-md-6{
+        width: 40% !important;
+        margin-top: 20px !important;
+        margin-left: 80px !important;
+    }
+}
+.heading15{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 80px;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.lowerheader11{
+    background-color: white;
+    border: 3px solid red;
+    width: 20%;
+    margin-left: 60px;
+}
+.heading16{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer{
+    background-color: #222222;
+    padding-top: 40px;
+    border-bottom: 2px solid white;
+}
+.saltpepperlogo{
+    margin-left: 10px;
+}
+.paragraph12{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size: small;
+}
+.heading17{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-bottom: 2px solid red;
+}
+.unorderedlist1{
+    color: white;
+    cursor: pointer;
+}
+.home2:hover{
+    color: red;
+}
+.aboutus2:hover{
+    color: red;
+}
+.publications2:hover{
+    color: red;
+}
+.franchise2:hover{
+    color: red;
+}
+.feedback2:hover{
+    color: red;
+}
+.heading18{
+    color: white;
+    border-bottom: 2px solid red;
+}
+.heading19{
+    color: white;
+}
+.unorderedlist2{
+    color: white;
+    cursor: pointer;
+}
+.no-1:hover{
+    color: red;
+}
+.no-2:hover{
+    color: red;
+}
+.no-3:hover{
+    color: red;
+}
+.no-4:hover{
+    color: red;
+}
+.no-5:hover{
+    color: red;
+}
+.no-6:hover{
+    color: red;
+}
+.heading20{
+    color: white;
+    border-bottom: 2px solid red;
+    margin-right: 0px;
+}
+.facebook{
+    width: 7%;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 50% 50%;
+    cursor: pointer;
+}
+.instagram{
+    width: 7%;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 50% 50%;
+    cursor: pointer;
+}
+.twitter{
+    width: 7%;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 50% 50%;
+    cursor: pointer;
+}
+.googleplay{
+    width: 120px;
+    margin-top: 20px;
+}
+.appstore{
+    width: 100px;
+    margin-left: 10px;
+}
+@media (max-width: 1024px){
+    .saltpepperlogo{
+       margin-left: 40%;
+    }
+    .paragraph12{
+        text-align: center;
+    }
+}
+.footer2{
+    background-color: #222222;
+    cursor: pointer;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.heading21{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading21:hover{
+    color: red;
+}
+.heading22{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading22:hover{
+    color: red;
+}
+@media (max-width: 767px){
+    .heading21 , .heading22{
+        font-size: 14px;
+    }
+}
+.footer3{
+    background-color: white;
+    /* margin-top: 10px; */
+}
+.paragraph14{
+    color: gray;
+    text-align: center;
+    /* padding-top: 7px; */
+}
